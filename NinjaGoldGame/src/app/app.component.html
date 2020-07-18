@@ -1,0 +1,6 @@
+<h1>Ninja Gold Game</h1>
+<app-gold [gold]='gold'></app-gold>
+<app-actions (updateGold)='updateFromActions($event)'></app-actions>
+<app-history [history]='history'></app-history>
+<button (click)='changeGold()'>change</button>
+<router-outlet></router-outlet>

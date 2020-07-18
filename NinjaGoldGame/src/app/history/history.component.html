@@ -1,0 +1,7 @@
+<ol>
+    <div *ngFor='let event of history'>
+        <li class='win' *ngIf='event.win'>{{event.event}}</li>
+        <li class='lost' *ngIf='!event.win'>{{event.event}}</li>
+    </div>
+    
+</ol>

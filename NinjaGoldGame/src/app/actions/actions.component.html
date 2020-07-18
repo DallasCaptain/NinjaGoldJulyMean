@@ -1,0 +1,33 @@
+
+<div class='container'>
+    <div class='col'>
+        <h2>Farm</h2>
+        <h4>Earns 2 -5 Gold</h4>
+        <form (submit)='processGold("farm")'>
+            <input type="submit" value="Farm">
+        </form>
+    </div>
+    <div class='col'>
+        <h2>Cave</h2>
+        <h4>Earns 5 - 10 Gold</h4>
+        <form (submit)='processGold("cave")'>
+            <input type="submit" value="Cave">
+        </form>
+    </div>
+    <div class='col'>
+        <h2>Casino</h2>
+        <h4>Loses all the Gold</h4>
+        <form (submit)='processGold("casino")'>
+            <input type="submit" value="Casino">
+        </form>
+    </div>
+    <div class='col'>
+        <h2>House</h2>
+        <h4>Earns 7 - 15 Gold</h4>
+        <form (submit)='processGold("house")'>
+            <input type="submit" value="House">
+        </form>
+    </div>
+</div>
+
+
